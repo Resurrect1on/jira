@@ -6,7 +6,7 @@ import telebot
 import time
 # URL to change
 def get_json() -> str:
-    url = 'http://itsumivalorant.atlassian.net/rest/api/2/search?jql=assignee=712020:f8ca08c6-395e-4be8-9fdd-cd3b808986ee'
+    url = 'http://ur website url/rest/api/2/search?jql=assignee=712020:f8ca08c6-395e-4be8-9fdd-cd3b808986ee'
 
     auth = HTTPBasicAuth(main.jira_user, main.API)
 
